@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 body {
   background: #454866;
   margin: 0 auto;
@@ -26,6 +20,28 @@ body {
   color: red;
 }
 
-.image {
-  max-width: 53%;
+.slider {
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.slides {
+  padding: 1em;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.slides-helper {
+  width: 100%;
+  overflow: hidden;
 }
