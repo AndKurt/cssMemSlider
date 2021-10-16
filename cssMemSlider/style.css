@@ -135,8 +135,8 @@ label:hover {
 #slide2:checked ~ #bullet label:nth-child(2),
 #slide3:checked ~ #bullet label:nth-child(3),
 #slide4:checked ~ #bullet label:nth-child(4) {
-  border: 3px #2986f0 solid;
-  background: #2f2e2e;
+  /*border: 3px #2986f0 solid;
+  background: #2f2e2e;*/
 }
 
 #slide1:checked:hover ~ #bullet label:nth-child(1),
