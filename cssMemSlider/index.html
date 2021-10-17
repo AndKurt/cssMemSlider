@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>cssMemSlider</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>cssMemSlider</h1>
+      </header>
+      <main class="main">
+        <div class="slider">
+          <input id="slide1" type="radio" name="slider" checked />
+          <input id="slide2" type="radio" name="slider" />
+          <input id="slide3" type="radio" name="slider" />
+          <input id="slide4" type="radio" name="slider" />
+          <div class="slides">
+            <div class="slides-helper">
+              <div class="slides-wrapper">
+                <div class="slide slide_1">
+                  <div class="slide-content">
+                    <div class="slide-img">
+                      <img src="./assets/cat1.jpg" alt="cat1" />
+                    </div>
+                    <p class="slide-text">
+                      Котик, который всегда рад проверяющим:)
+                    </p>
+                  </div>
+                </div>
+                <div class="slide slide_2">
+                  <div class="slide-content">
+                    <div class="slide-img">
+                      <img src="./assets/cat2.jpg" alt="cat2" />
+                    </div>
+                    <p class="slide-text">
+                      А этот грустит когда оценка плохая:)
+                    </p>
+                  </div>
+                </div>
+                <div class="slide slide_3">
+                  <div class="slide-content">
+                    <div class="slide-img">
+                      <img src="./assets/cat3.jpg" alt="cat3" />
+                    </div>
+                    <p class="slide-text">Максимально содержательный котик:)</p>
+                  </div>
+                </div>
+                <div class="slide slide_4">
+                  <div class="slide-content">
+                    <div class="slide-img">
+                      <img src="./assets/cat4.jpg" alt="cat4" />
+                    </div>
+                    <p class="slide-text">Peace from the heart:)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="control-bullets">
+            <label class="bullet" for="slide1"> </label>
+            <label class="bullet" for="slide2"> </label>
+            <label class="bullet" for="slide3"> </label>
+            <label class="bullet" for="slide4"> </label>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
